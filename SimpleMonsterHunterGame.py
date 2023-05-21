@@ -40,7 +40,7 @@ while(True):
         if pilih  == '1' :
 
             damagedealt = random.randint(10,30)
-            damagetaken = random.randint(50,100)
+            damagetaken = random.randint(10,30)
 
             health -= damagetaken
             MHhealth -= damagedealt
